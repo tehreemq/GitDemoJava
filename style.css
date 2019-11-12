@@ -1,0 +1,197 @@
+body	{
+	background: url('bg.jpg') ;
+	font-family: "calibri", Garamond, 'Comic Sans MS';
+	margin: 0;
+}
+	
+header  {
+	height: 650px;
+	width: auto;
+	top: 0;
+	left: 0;
+	background: #333333 url('head.png') ;
+	background-size: cover;
+}
+
+
+header img	{
+	width: 150px;
+	float: left;
+	margin-left: 50px;
+
+}
+
+nav {
+	text-align: center;
+	display: block;
+	padding-bottom: 0px;
+	list-style-type: none;
+	overflow: hidden;
+	float: left;
+	height: 70px;
+	position: relative;
+	background-color: #311C17;
+	width: 100%;
+	border-radius: 5px;
+	padding-top: 10px;
+}
+
+nav li:first-child	{
+	float: left;
+}
+nav li a {
+	float: left;
+	line-height: 80px;
+	color: #FFFFFFE6;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 30px;
+	font-variant: petite-caps;
+	padding: 0px 10px 0px 20px;
+}
+
+nav li a:hover{
+color:#FFFFFF;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px black;
+}
+
+section {
+	margin: 0 auto 0 auto;
+	display: block;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	width: 921px;
+	color: #E11383;
+	padding: 40px;
+	font-size: 100px;
+	text-align: center;
+	font-variant: all-petite-caps;
+}
+
+
+#main 
+{
+width:100%;
+margin-top:30px;
+margin-bottom:15px;
+
+padding-bottom: 10px;
+}
+
+#main .main_right
+{
+padding-left:0px;
+width:30%;
+color:#FFFFFF;
+float:left;
+}
+
+
+#main .main_left
+{
+width:32%;
+float:left;
+	padding-left: 20px;
+	padding-right: 460px;
+	padding-top: 20px;
+	line-height: 1.5;
+}
+
+article {
+    line-height: 0px;
+	
+}
+
+#timeline	{
+	padding-top: 680px;
+}
+
+#timeline img	{
+	width:1349px; 
+	height: auto;
+}
+
+article h1	{
+	font-size: 40px;
+	color: #f5821f;
+	width: 850px;
+	border: 0;
+padding: 0;
+margin: 1px;
+
+}
+
+aside h1	{
+	font-size: 25px;
+	color: #f5821f;
+	width: 850px;
+	border: 0;
+padding: 0;
+margin: 19px 1px 1px 1px;
+
+}
+
+aside h1:second-child	{
+	font-size: 25px;
+	color: #f5821f;
+	width: 850px;
+	border: 0;
+padding: 0;
+margin: 1px 1px 1px 1px;
+
+}
+
+article p	{
+	font-size: 17px;
+	color: #fff;
+	width: 850px;
+	border: 0;
+padding: 0;
+margin: 2px;
+
+}
+
+aside hr	{ 
+    display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: 11px;
+	border-style: ridge;
+	border-width: 1px;
+	color: #E11383;
+} 
+
+aside img	{
+	width: 400px;
+	height: 400px;
+}	
+
+aside a	{
+		text-decoration: none;
+		color: #fff;
+		font-size: 20px;
+		font-weight: bold;
+}
+
+aside a:hover	{
+		text-decoration: underline;
+		color: #fff;
+		font-size: 20px;
+		font-weight: bold;
+}
+
+aside audio	{
+	width: 400px;
+}
+
+footer h2	{
+	text-align: center;
+}
